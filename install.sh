@@ -7,7 +7,7 @@ echo "INITILIZING PYTHON"
 python3 -m venv .
 source ./bin/activate
 echo "INSTALLING PACKAGES"
-pip install ursina
+cp ./pkgs/ursina "./lib/python3.11/site-packages/"
 pip install screeninfo
 echo "craftgame is ready to go :)"
 echo "running craftgame"
