@@ -10,6 +10,13 @@ echo "INSTALLING PACKAGES"
 
 cp -R ./pkgs/ursina "./lib/python3.11/site-packages/"
 pip install screeninfo
+pip install Panda3D
+pip install pyperclip
+pip install panda3d-gltf 
+pip install panda3d-simplepbr 
+pip install pyobjc-core
+pip install pyobjc-framework-Cocoa 
+pip install Pillow
 echo "craftgame is ready to go :)"
 echo "running craftgame"
 python3 main.py
